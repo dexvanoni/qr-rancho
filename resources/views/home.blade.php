@@ -5,7 +5,7 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">Preencha seu arraçoamento - {{Session::get('usuario')['posto']}} {{Session::get('usuario')['nome_guerra']}}</div>
+                <div class="card-header">Paaaaareencha seu arraçoamento - {{Session::get('usuario')['posto']}} {{Session::get('usuario')['nome_guerra']}}</div>
                 <a href="{{route('qr')}}" title=""><i class="fa-solid fa-qrcode fa-beat"></i></a>
                 <div class="card-body">
                     @if (session('status'))
